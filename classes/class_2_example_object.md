@@ -4,10 +4,11 @@ attribute
 - ingredients = ["Marinara", "Italian Sausage", "Spaghetti Pasta", "Cheese"]
 - price = 12.99
 - portion_size = "Large"
-- is_kids_meal = false
+- is_vegetarian = false
 
 method
-- make_kids_meal = true, size = "Small"
+- make_vegetarian = true
+- change_size = "Medium"
 - remove_ingredients = ["Marinara", "Spaghetti Pasta", "Cheese"]
 - add_ingredients = ["Marinara", "Spaghetti Pasta", "Cheese", "Impossible Beef"]
-- discount_price = 12.99 - 5.00 = 7.99
+- discount_price = price - 5.00 = 7.99
