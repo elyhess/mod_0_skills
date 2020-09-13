@@ -9,7 +9,10 @@ quotient = num7 / num2
 
 songs = ["song1", "song2", "song3"]
 p songs
-songs.delete("song1")
+# songs.delete("song1")
+# OR
+songs.shift(1)
 p songs
 
 p food.size
+at
