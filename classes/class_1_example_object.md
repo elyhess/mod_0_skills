@@ -1,8 +1,5 @@
 edward = Employee.new("C-1451U", "1121 E. Elizabeth Ave", "303-801-7849", ["Monday", "Wednesday"])
-edward.change_store_num("F-3141D")
-edward.change_address("448 Buttes St.")
-edward.change_phone("303-885-4492")
-edward.add_days_off("Saturday")
+
 
 attribute
 - store_number = "C-1451U"
