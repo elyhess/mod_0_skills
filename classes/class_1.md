@@ -1,6 +1,5 @@
 class = Employee
 
-
 attribute
 - store_number (string)
 - address (string)
