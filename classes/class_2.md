@@ -7,7 +7,7 @@ attribute
 - is_kids_meal (boolean)
 
 method
-- make_kids_meal (changes is_kids_meal to true, and would display as such on the menu)
+- make_kids_meal (changes is_kids_meal to true, changes portion_size to small)
 - remove_ingredients (removes item from ingredients array)
 - add_ingredients (adds item to ingredients array)
-- discount_price = (changes price float)
+- discount_price = (subtract value from price float)

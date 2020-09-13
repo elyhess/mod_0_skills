@@ -7,7 +7,7 @@ attribute
 - is_kids_meal = false
 
 method
-- make_kids_meal = true
+- make_kids_meal = true, size = "Small"
 - remove_ingredients = ["Marinara", "Spaghetti Pasta", "Cheese"]
 - add_ingredients = ["Marinara", "Spaghetti Pasta", "Cheese", "Impossible Beef"]
-- discount_price = 12.99 - 5.00
+- discount_price = 12.99 - 5.00 = 7.99
